@@ -30,7 +30,8 @@
               "RelativeToolTip": "musicPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T19:07:51.713Z"
+              "WhenOpened": "2026-01-29T19:07:51.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +41,7 @@
               "RelativeDocumentMoniker": "improMod.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\JazzImprovisationModule\\improvisation-module\\improMod.cs",
               "RelativeToolTip": "improMod.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-29T18:05:23.135Z",
               "EditorCaption": ""

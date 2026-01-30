@@ -1,14 +1,21 @@
-[gd_scene load_steps=4 format=3 uid="uid://cdh7rxfur7a8d"]
+[gd_scene load_steps=10 format=3 uid="uid://cdh7rxfur7a8d"]
 
 [ext_resource type="Script" uid="uid://jnt3tllsgsrj" path="res://musicPlayer.cs" id="1_h2yge"]
 [ext_resource type="Script" uid="uid://uvvw881qvaim" path="res://improMod.cs" id="1_ig7tw"]
-[ext_resource type="AudioStream" uid="uid://cdff572key7qk" path="res://mibmineurInstru.mp3" id="2_1bvp3"]
+[ext_resource type="AudioStream" uid="uid://iuaiopqq0pa5" path="res://waltz/GGJ2026.mp3" id="2_kek77"]
+[ext_resource type="AudioStream" uid="uid://boaqixua2vyyi" path="res://waltz/1-5.mp3" id="4_kek77"]
+[ext_resource type="AudioStream" uid="uid://ct3w1vneqjam2" path="res://waltz/2-6.mp3" id="5_4c57u"]
+[ext_resource type="AudioStream" uid="uid://dkt58ukf8rdka" path="res://waltz/3.mp3" id="6_efxa6"]
+[ext_resource type="AudioStream" uid="uid://btxdp0cmckrru" path="res://waltz/4.0.mp3" id="7_dg77c"]
+[ext_resource type="AudioStream" uid="uid://dsg8wbwp6xvph" path="res://waltz/7.mp3" id="8_ycdy4"]
+[ext_resource type="AudioStream" uid="uid://d046mos3ibsx7" path="res://waltz/8.mp3" id="9_w48qg"]
 
 [node name="Node" type="Node2D"]
 
 [node name="AudioPlayer" type="Node2D" parent="."]
 script = ExtResource("1_h2yge")
-music = ExtResource("2_1bvp3")
+music = ExtResource("2_kek77")
 
 [node name="ImproModule" type="Node2D" parent="."]
 script = ExtResource("1_ig7tw")
+notes1 = Array[AudioStream]([ExtResource("4_kek77"), ExtResource("5_4c57u"), ExtResource("6_efxa6"), ExtResource("7_dg77c"), ExtResource("4_kek77"), ExtResource("5_4c57u"), ExtResource("8_ycdy4"), ExtResource("9_w48qg")])
